@@ -5,6 +5,7 @@ import Hello from './components/Hello';
 import Welcome from './components/Welcome';
 import BootstrapFunc from './components/BootstrapFunc';
 import Arrow from './components/Arrow';
+import StateProp from './components/StateProp';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Welcome name="class1"></Welcome>
         <BootstrapFunc></BootstrapFunc>
         <Arrow name="hi" />
+        <StateProp></StateProp>
 
     </div>
   );
