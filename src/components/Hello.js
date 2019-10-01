@@ -1,10 +1,15 @@
 import React from 'react';
 
 
-function Hello() {
+function Hello(props) {
+    function doThis(a) {
+        alert(a);
+        
+    }
     return (
-        <div className="App">
-        <h1>Hello Pagla </h1>
+        <div>
+            <button onClick={doThis.bind(this,"hello I am from param")}>Click Me</button>
+        <h1>Name {props.name} Age:{props.age} </h1>
         </div>
     );
 }
