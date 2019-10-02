@@ -6,8 +6,13 @@ class StateProp extends Component {
         super()
         this.state={
             name:"Alax",
-            age:28,
+            age: ["28","25","26","27"],
             address:"Dhanmondi",
+            weight:{
+                class7:"40",
+                class10:"50",
+                class11:"55"
+            }
         }
     }
 
@@ -15,7 +20,8 @@ class StateProp extends Component {
         return (
             <div> 
                 <h1>Name { this.state.name }</h1>
-                <p>Age { this.state.age}</p>
+                <p>Age { this.state.age[2]}</p>
+                <p>weight {this.state.weight.class10}</p>
             </div>
         );
     }
