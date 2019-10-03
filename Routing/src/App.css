@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+.textStyle {
+    background-color: green;
+    color: red;
+    padding:50px;
+}
 .App-logo {
   height: 40vmin;
 }

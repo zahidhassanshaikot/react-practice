@@ -1,0 +1,8 @@
+$nameColor:red;
+$backgroundColor:rgb(0, 255, 179);
+
+.textStyle {
+    background-color:$backgroundColor;
+    color:$nameColor;
+    padding:50px;
+}
