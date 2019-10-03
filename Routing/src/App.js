@@ -3,6 +3,7 @@ import './App.css';
 import './My.scss';
 import style from './MyCss.module.css';
 import MyTable from './pages/MyTable';
+import Navigation from './pages/Navigation';
 
 
 
@@ -10,6 +11,7 @@ import MyTable from './pages/MyTable';
 function App() {
   return (
     <div className="App">
+      <Navigation />
       <MyTable />
 
       {/* <h1 className={ style.textStyle}>home</h1>
